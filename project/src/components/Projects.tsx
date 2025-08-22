@@ -36,7 +36,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
     {
       title: "Student Portal",
       description: "Student Portal – A frontend application for students  with student registration & profile management, calaender and activity log, attendance and result tracking, push notifications, and PWA support for seamless offline access across devices.",
-      image: "https://s3-alpha.figma.com/hub/file/4269963479/4983eff0-5165-4080-b8a6-5817f0372cd0-cover.png",
+      image: "https://static-blog.onlyoffice.com/wp-content/uploads/2023/08/04132139/halston-stephenson-paod-student-portal-dashboard.jpg",
       technologies: ["Javascript", "React", "Node.js","Express.js", "MongoDB","Restful Api"],
       liveUrl: "http://student-app-rouge-nine.vercel.app",
       githubUrl: "https://github.com/ShrivastavaAstha/StudentApp"

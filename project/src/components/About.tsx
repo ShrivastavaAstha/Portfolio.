@@ -26,7 +26,7 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
               }`}
             >
               About Me
-            </h2>s
+            </h2>
 
             <p
               className={`text-lg leading-relaxed ${
@@ -47,7 +47,7 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
             >
               With hands-on experience in projects like an <span className="font-medium">AI-Powered Collaboration Platform</span>, 
               <span className="font-medium"> Healthcare Management System</span>, and a 
-              <span className="font-medium"> Movie Discovery Platform</span>, I’ve worked across diverse domains—implementing 
+              <span className="font-medium"> Movie Discovery Platform</span>, I’ve worked across diverse domains-implementing 
               <span className="text-emerald-500"> real-time features</span>, AI integrations, authentication systems, and dashboards. 
               Beyond coding, I thrive on problem-solving, continuous learning, and turning ideas into impactful digital solutions.
             </p>
