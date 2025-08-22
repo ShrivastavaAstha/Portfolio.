@@ -24,18 +24,18 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    emailjs
-      .send(
-        "service_2195kno",   // 🔹 replace with your EmailJS Service ID
-        "template_4no7p5v",  // 🔹 replace with your EmailJS Template ID
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          subject: formData.subject,
-          message: formData.message,
-        },
-        "ToVdg2l0YMtwGj9li"    // 🔹 replace with your EmailJS Public Key
-      )
+  emailjs.send(
+  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  {
+    from_name: formData.name,
+    from_email: formData.email,
+    subject: formData.subject,
+    message: formData.message,
+  },
+  import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+)
+
       .then(
         () => {
           alert("✅ Message sent successfully!");
