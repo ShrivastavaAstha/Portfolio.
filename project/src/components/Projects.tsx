@@ -27,7 +27,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
   ],
   liveUrl: "https://talkify-inky.vercel.app/",
   githubUrl: "https://github.com/shrivastavaastha/talkify"
-}
+},
 
     {
       title: "AiChatApp",
