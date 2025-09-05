@@ -10,6 +10,26 @@ interface ProjectsProps {
 const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
   const projects = [
     {
+  title: "Talkify",
+  description: "Talkify is a cutting-edge real-time language exchange and communication platform that seamlessly integrates instant messaging, high-quality video calls, and social interactions. Users can connect globally, practice multiple languages, react to messages with emojis, delete messages for everyone, and customize their experience with 32 UI themes, making language learning and socializing effortless and engaging.",
+  image: "https://media.istockphoto.com/id/1397170124/photo/social-networking-global-communication-technology.jpg?s=2048x2048&w=is&k=20&c=YQPlrG9mMG3FRZc3ZsPZlR1jrb2chG7jAoo87I1Phx8=", 
+  technologies: [
+    "React.js",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT Authentication",
+    "Stream Chat SDK",
+    "Stream Video SDK",
+    "TanStack Query",
+    "Zustand",
+  ],
+  liveUrl: "https://talkify-inky.vercel.app/",
+  githubUrl: "https://github.com/shrivastavaastha/talkify"
+}
+
+    {
       title: "AiChatApp",
       description: "It’s a real-time AI-powered collaboration platform that combines instant messaging with AI assistance, helping users collaborate efficiently in one place.",
       image: "https://media.istockphoto.com/id/1933417108/photo/ai-chatbot-artificial-intelligence-concept.jpg?s=2048x2048&w=is&k=20&c=0vyuUTGrtFH_u13z0_b1icMS6vokRftmcQ4dyU0QZbA=",
