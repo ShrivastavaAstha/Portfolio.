@@ -12,8 +12,8 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
     {
   title: "Talkify",
   description: "Talkify is a cutting-edge real-time language exchange and communication platform that seamlessly integrates instant messaging, high-quality video calls, and social interactions. Users can connect globally, practice multiple languages, react to messages with emojis, delete messages for everyone, and customize their experience with 32 UI themes, making language learning and socializing effortless and engaging.",
-  image: "https://www.freepik.com/free-vector/friends-video-calling-concept_7607439.htm#fromView=keyword&page=1&position=39&uuid=d72653fc-da70-4703-8f3f-c072f4b551f6&query=Video+call", 
-  technologies: [
+    image:"/demo_img.png",
+    technologies: [
     "React.js",
     "Tailwind CSS",
     "Node.js",
